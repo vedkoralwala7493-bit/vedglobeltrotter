@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">                                                                                    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calendar {
+    background: white;
+    width: 450px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.calendar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    text-align: center;
+}
+
+.days div {
+    font-weight: bold;
+    padding: 10px 0;
+    color: #555;
+}
+
+.days span {
+    padding: 12px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.days span:hover {
+    background: #3399ff;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="secction">
+            <h2>
+             <b><i>GlobalTotter</i></b>
+            </h2>
+        </div>
+              <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="Search-GlobalTotter" class="search-input">
+                    <div class="search-icon">
+                       <!--<i class="fa-solid fa-magnifying-glass"></i>--> 
+                    </div>
+                    </div>
+                    <div class="div" style="display: flex; margin-left: 10px; align-items:  center;">
+                    <button style="margin-right: 10px;">Group by</button>
+                    <button style="margin-right: 10px;">Filter</button>
+                    <button>Sort by</button>
+                    </div>
+<div class="calendar">
+    <h2>August 2026</h2>
+
+    <div class="days">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+
+        <!-- Empty spaces before August 1 -->
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!-- Dates -->
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span>10</span>
+        <span>11</span>
+        <span>12</span>
+        <span>13</span>
+        <span>14</span>
+        <span>15</span>
+        <span>16</span>
+        <span>17</span>
+        <span>18</span>
+        <span>19</span>
+        <span>20 <p>Mummbai Airport</p></span>
+        <span>21<p>Hotel</p></span>
+        <span>22<p>near cultural places</p></span>
+        <span>23<p>Disney land</p></span>
+        <span>24<p>Carnival</p></span>
+        <span>25<p>monk temple</p></span>
+        <span>26<p>Ocean Park</p></span>
+        <span>27<p>Tian Tan Buddha</p></span>
+        <span>28<p>rest day</p></span>
+        <span>29<p>rest day</p></span>
+        <span>30<p>Return</p></span>
+        <span>31</span>
+    </div>
+</div>
+<button><a href="public.html" style="text-decoration: none; color: black;">Share Trip</a></button>
+<button><a href="Dashboard.html" style="text-decoration: none; color: white; background-color: red;">Exit</a></button>
+
+</div>
+    </body>
+</html>

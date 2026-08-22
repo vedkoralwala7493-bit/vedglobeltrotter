@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel planner</title>      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">                                                                                    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container{
+            width: 350px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Create Your Trip</h1>
+
+    <form>
+
+        <!-- Trip Name -->
+        <label for="tripName">Trip Name:</label>
+        <input type="text" id="tripName" name="tripName"
+               placeholder="Enter trip name">
+
+        <br><br>
+
+        <!-- Start Date -->
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate">
+
+        <br><br>
+
+        <!-- End Date -->
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate">
+
+        <br><br>
+
+        <!-- Description -->
+        <label for="description">Trip Description:</label>
+        <br>
+        <textarea id="description" name="description"
+                  placeholder="Describe your trip..."
+                  rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <!-- Cover Photo -->
+        <label for="coverPhoto">Cover Photo:</label>
+        <input type="file" id="coverPhoto" name="coverPhoto"
+               accept="image/*">
+
+        <br><br>
+
+        <!-- Save Button -->
+        <button type="submit"><a href="mytrip.html" target="_main" style="text-decoration: none; color: white;"> Save trip</a></button>
+<button><a href="Dashboard.html" style="text-decoration: none; color: white; background-color: red;"><Exit</Em></a></button>
+
+    </form>
+</div>
+</body>
+</html>

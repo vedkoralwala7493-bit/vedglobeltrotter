@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlobleTrotter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+                margin: 0;
+                min-height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f5f5f5;
+        }
+        .container{
+            width: 350px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="name"><h1 style="text-align: center;">Globle Trotter</h1></div>
+   <div class="signup">
+    <div class="heading"><h2><b><i>Sign up</b></h2></div>
+    <div class="contain">
+        <form>
+            <form action="/submit" method="POST"></form>
+            <div class="mail">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <i class="fa-solid fa-circle-exclamation"></i>
+            </div>
+            <div class="passwoed">
+                <label for="password">Password:</label><br>
+                <input type="password" name="pwd" minlength="8"required>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <div class="login">
+                    <button><a href="info.html">Login</a></button>
+                </div>
+                <div class="forgot">
+                    <a href="/Forgot.html" target="_main">Forgot passwoed?</a>
+                    <i class="fa-solid fa-user-key"></i>
+                </div>
+                <div class="link">
+                    <a href="login.html">Sign up</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+
+
+</body>
+</html>
